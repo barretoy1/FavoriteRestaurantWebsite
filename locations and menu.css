@@ -1,0 +1,48 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+}
+    
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 15px 15px;
+        text-decoration: none;
+}
+    
+li a:hover {
+    background-color: rgba(255, 51, 0, 0.979);
+}
+#Address {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+} 
+#Address td, #Address th {
+    border: 1px solid; black;
+    padding: 8px;
+    border-width: 22px;
+}
+#Address tr:nth-child(even){background-color: white;}
+#Address tr:hover {background-color: rgba(255, 255, 0, 0.062);}
+#Address th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:red;
+    color: white;
+}
+h3 {
+    font-size: 80px;
+    text-align: center;
+}
+body {
+    background-color: rgba(205, 134, 63, 0.479)
+}
